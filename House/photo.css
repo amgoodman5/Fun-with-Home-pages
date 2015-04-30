@@ -1,0 +1,425 @@
+.gallery-thumbs {
+    *zoom: 1;
+}
+.gallery-thumbs:before, .gallery-thumbs:after {
+    content: "";
+    display: table;
+}
+.gallery-thumbs:after {
+    clear: both;
+}
+
+.gallery {
+    background-color: #ccc;
+    margin: 1em auto 0 auto;
+    position: relative;
+    text-align: center;
+    width: 35em;
+}
+
+[class^='gallery-radio-'] {
+    display: none;
+}
+
+.gallery-radio-1:checked ~ .gallery-large .gallery-photo-1 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-1:checked ~ .gallery-large .gallery-photo-1 {
+    display: block;
+}
+
+.gallery-radio-2:checked ~ .gallery-large .gallery-photo-2 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-2:checked ~ .gallery-large .gallery-photo-2 {
+    display: block;
+}
+
+.gallery-radio-3:checked ~ .gallery-large .gallery-photo-3 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-3:checked ~ .gallery-large .gallery-photo-3 {
+    display: block;
+}
+
+.gallery-radio-4:checked ~ .gallery-large .gallery-photo-4 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-4:checked ~ .gallery-large .gallery-photo-4 {
+    display: block;
+}
+
+.gallery-radio-5:checked ~ .gallery-large .gallery-photo-5 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-5:checked ~ .gallery-large .gallery-photo-5 {
+    display: block;
+}
+
+.gallery-radio-6:checked ~ .gallery-large .gallery-photo-6 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-6:checked ~ .gallery-large .gallery-photo-6 {
+    display: block;
+}
+
+.gallery-radio-7:checked ~ .gallery-large .gallery-photo-7 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-7:checked ~ .gallery-large .gallery-photo-7 {
+    display: block;
+}
+
+.gallery-radio-8:checked ~ .gallery-large .gallery-photo-8 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-8:checked ~ .gallery-large .gallery-photo-8 {
+    display: block;
+}
+
+.gallery-radio-9:checked ~ .gallery-large .gallery-photo-9 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-9:checked ~ .gallery-large .gallery-photo-9 {
+    display: block;
+}
+
+.gallery-radio-10:checked ~ .gallery-large .gallery-photo-10 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-10:checked ~ .gallery-large .gallery-photo-10 {
+    display: block;
+}
+
+.gallery-radio-11:checked ~ .gallery-large .gallery-photo-11 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-11:checked ~ .gallery-large .gallery-photo-11 {
+    display: block;
+}
+
+.gallery-radio-12:checked ~ .gallery-large .gallery-photo-12 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-12:checked ~ .gallery-large .gallery-photo-12 {
+    display: block;
+}
+
+.gallery-radio-13:checked ~ .gallery-large .gallery-photo-13 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-13:checked ~ .gallery-large .gallery-photo-13 {
+    display: block;
+}
+
+.gallery-radio-14:checked ~ .gallery-large .gallery-photo-14 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-14:checked ~ .gallery-large .gallery-photo-14 {
+    display: block;
+}
+
+.gallery-radio-15:checked ~ .gallery-large .gallery-photo-15 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-15:checked ~ .gallery-large .gallery-photo-15 {
+    display: block;
+}
+
+.gallery-radio-16:checked ~ .gallery-large .gallery-photo-16 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-16:checked ~ .gallery-large .gallery-photo-16 {
+    display: block;
+}
+
+.gallery-radio-17:checked ~ .gallery-large .gallery-photo-17 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-17:checked ~ .gallery-large .gallery-photo-17 {
+    display: block;
+}
+
+.gallery-radio-18:checked ~ .gallery-large .gallery-photo-18 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-18:checked ~ .gallery-large .gallery-photo-18 {
+    display: block;
+}
+
+.gallery-radio-19:checked ~ .gallery-large .gallery-photo-19 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-19:checked ~ .gallery-large .gallery-photo-19 {
+    display: block;
+}
+
+.gallery-radio-20:checked ~ .gallery-large .gallery-photo-20 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-20:checked ~ .gallery-large .gallery-photo-20 {
+    display: block;
+}
+
+.gallery-radio-21:checked ~ .gallery-large .gallery-photo-21 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-21:checked ~ .gallery-large .gallery-photo-21 {
+    display: block;
+}
+
+.gallery-radio-22:checked ~ .gallery-large .gallery-photo-22 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-22:checked ~ .gallery-large .gallery-photo-22 {
+    display: block;
+}
+
+.gallery-radio-23:checked ~ .gallery-large .gallery-photo-23 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-23:checked ~ .gallery-large .gallery-photo-23 {
+    display: block;
+}
+
+.gallery-radio-24:checked ~ .gallery-large .gallery-photo-24 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-24:checked ~ .gallery-large .gallery-photo-24 {
+    display: block;
+}
+
+.gallery-radio-25:checked ~ .gallery-large .gallery-photo-25 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-25:checked ~ .gallery-large .gallery-photo-25 {
+    display: block;
+}
+
+.gallery-radio-26:checked ~ .gallery-large .gallery-photo-26 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-26:checked ~ .gallery-large .gallery-photo-26 {
+    display: block;
+}
+
+.gallery-radio-27:checked ~ .gallery-large .gallery-photo-27 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-27:checked ~ .gallery-large .gallery-photo-27 {
+    display: block;
+}
+
+.gallery-radio-28:checked ~ .gallery-large .gallery-photo-28 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-28:checked ~ .gallery-large .gallery-photo-28 {
+    display: block;
+}
+
+.gallery-radio-29:checked ~ .gallery-large .gallery-photo-29 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-29:checked ~ .gallery-large .gallery-photo-29 {
+    display: block;
+}
+
+.gallery-radio-30:checked ~ .gallery-large .gallery-photo-30 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-30:checked ~ .gallery-large .gallery-photo-30 {
+    display: block;
+}
+
+.gallery-radio-31:checked ~ .gallery-large .gallery-photo-31 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-31:checked ~ .gallery-large .gallery-photo-31 {
+    display: block;
+}
+
+.gallery-radio-32:checked ~ .gallery-large .gallery-photo-32 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-32:checked ~ .gallery-large .gallery-photo-32 {
+    display: block;
+}
+
+.gallery-radio-33:checked ~ .gallery-large .gallery-photo-33 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-33:checked ~ .gallery-large .gallery-photo-33 {
+    display: block;
+}
+
+.gallery-radio-34:checked ~ .gallery-large .gallery-photo-34 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-34:checked ~ .gallery-large .gallery-photo-34 {
+    display: block;
+}
+
+.gallery-radio-35:checked ~ .gallery-large .gallery-photo-35 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-35:checked ~ .gallery-large .gallery-photo-35 {
+    display: block;
+}
+
+.gallery-radio-36:checked ~ .gallery-large .gallery-photo-36 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-36:checked ~ .gallery-large .gallery-photo-36 {
+    display: block;
+}
+
+.gallery-radio-37:checked ~ .gallery-large .gallery-photo-37 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-37:checked ~ .gallery-large .gallery-photo-37 {
+    display: block;
+}
+
+.gallery-radio-38:checked ~ .gallery-large .gallery-photo-38 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-38:checked ~ .gallery-large .gallery-photo-38 {
+    display: block;
+}
+
+.gallery-radio-39:checked ~ .gallery-large .gallery-photo-39 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-39:checked ~ .gallery-large .gallery-photo-39 {
+    display: block;
+}
+
+.gallery-radio-40:checked ~ .gallery-large .gallery-photo-40 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-40:checked ~ .gallery-large .gallery-photo-40 {
+    display: block;
+}
+
+.gallery-radio-41:checked ~ .gallery-large .gallery-photo-41 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-41:checked ~ .gallery-large .gallery-photo-41 {
+    display: block;
+}
+
+.gallery-radio-42:checked ~ .gallery-large .gallery-photo-42 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-42:checked ~ .gallery-large .gallery-photo-42 {
+    display: block;
+}
+
+.gallery-radio-43:checked ~ .gallery-large .gallery-photo-43 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-43:checked ~ .gallery-large .gallery-photo-43 {
+    display: block;
+}
+
+.gallery-radio-44:checked ~ .gallery-large .gallery-photo-44 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-44:checked ~ .gallery-large .gallery-photo-44 {
+    display: block;
+}
+
+.gallery-radio-45:checked ~ .gallery-large .gallery-photo-45 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-45:checked ~ .gallery-large .gallery-photo-45 {
+    display: block;
+}
+
+.gallery-radio-46:checked ~ .gallery-large .gallery-photo-46 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-46:checked ~ .gallery-large .gallery-photo-46 {
+    display: block;
+}
+
+.gallery-radio-47:checked ~ .gallery-large .gallery-photo-47 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-47:checked ~ .gallery-large .gallery-photo-47 {
+    display: block;
+}
+
+.gallery-radio-48:checked ~ .gallery-large .gallery-photo-48 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-48:checked ~ .gallery-large .gallery-photo-48 {
+    display: block;
+}
+
+.gallery-radio-49:checked ~ .gallery-large .gallery-photo-49 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-49:checked ~ .gallery-large .gallery-photo-49 {
+    display: block;
+}
+
+.gallery-radio-50:checked ~ .gallery-large .gallery-photo-50 {
+    opacity: 1;
+}
+.no-opacity .gallery-radio-50:checked ~ .gallery-large .gallery-photo-50 {
+    display: block;
+}
+
+.gallery-large {
+    padding-bottom: 75%;
+    position: relative;
+}
+
+.gallery-large > span {
+    -webkit-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    margin: 0 auto;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.no-opacity .gallery-large > span {
+    display: none;
+}
+
+.gallery-large > span > img {
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+}
+
+.gallery-thumbs {
+    background-color: #000;
+    overflow: hidden;
+    padding-bottom: 1.1%;
+    text-align: left;
+}
+
+.gallery-thumbs > label {
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 0;
+    margin: 1.1% 0 0 1.1%;
+    overflow: hidden;
+    padding: 0 0 11.6% 0;
+    width: 15.4%;
+}
+
+.gallery-thumbs > label > img {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
